@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial,sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: capitalize;
+}
+
+/* Menu */
+.menu {
+	width: 100%;
+	height: 150px;
+	background: #FFA1FF;
+	position: relative;
+}
+.menu::before {
+	content: "Gấu Bông HIAST";
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 132px;
+    top: 22px;
+}
+.menu img {
+	width: 70px;
+	height: 50px;
+	margin: 0px 50px;
+}
+.menu ul {
+	display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    border-top: 2px solid darkred;
+    border-bottom: 2px solid darkred;
+    cursor: pointer;
+}
+.menu ul li {
+	list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-left: 2px solid;
+}
+.menu ul li:first-child {
+	border-left: none;
+}
+.menu ul li h4:hover {
+	color: white;
+	text-decoration: 2px underline;
+	transition: 0.4s;
+}
+.menu .table {
+	height: 50px;
+	background: orangered;
+}
+
+/* Banner */
+.banner{
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0;
+	width: 100%;
+}
+.banner .a {
+	width: 22%;
+	position: relative;
+}
+.banner .a img {
+	width: 100%;
+	height: 200px;
+	border-radius: 37px;
+}
+.banner .a h4 {
+	position: absolute;
+	text-align: center;
+	padding: 20px 27px;
+	background: linear-gradient(white, red);
+	z-index: 7;
+	border-radius: 37px;
+	border: 1px gray solid;
+	bottom: -22px;
+	left: 50px;
+}
+.space {
+	width: 100%;
+	height: 20px;
+}
+
+/* Near Footter */
+.img {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background: #FFA1FF;
+	height: 140px;
+}
+.img .b {
+	width: 22%;
+	position: relative;
+}
+.img .b img {
+	width: 90%;
+	height: 120px;
+	margin-top: 10px;
+}
+.img .b h4 {
+	position: absolute;
+    color: red;
+    right: 40px;
+    top: 15px;
+    font-size: 20px;
+}
+.infor {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	background: #FF00FF;
+	height: 140px;
+}
+.infor div {
+	width: 22%;
+	height: 120px;
+}
+.infor div ul {
+	margin-top: 15px;
+	border-right: 2px solid red;
+	padding: 10px 0;
+}
+.infor div .thai {
+	border-right: none;
+}
+.infor div ul li {
+	list-style: none;
+	margin-bottom: 7px;
+}
+
+/* Footer */
+.footer{
+	width: 100%;
+	height: 200px;
+	background: #e7e0e0;
+	display: flex;
+	justify-content: space-around;
+}
+.footer div ul li {
+	list-style: none;
+	margin-bottom: 7px;
+}
+.f1 , .f3 {
+	flex: 1;
+}
+.f2 {
+	flex: 2;
+	position: relative;
+}
+.f1 ul li {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.f3 ul li {
+	margin-top: 20px;
+}
+.f2 ul li img {
+	width: 150px;
+	height: 100px;
+}
+.f2::before {
+	content: "Gấu Bông HIAST";
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 147px;
+    top: 57px;
+    font-size: 20px;
+}
+.f2 ul li a:hover {
+	color: red;
+	text-decoration: 2px underline;
+	transition: 0.4s;
+}
+a {
+	text-decoration: none;
+	color: black;
+}

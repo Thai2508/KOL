@@ -1,0 +1,5 @@
+tím trên:FFA1FF
+tím đậm dưới:FF00FF
+
+còn cái màu đỏ là gradient
+thanh trang chủ,phụ kiện, liên hệ,tin tức.....đổi màu cam(tùy chọn màu cam).
